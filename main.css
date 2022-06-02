@@ -1,0 +1,7 @@
+.carousel * {
+    max-height: 39rem;
+}
+
+.card-img-top {
+    max-height: 5rem;
+}

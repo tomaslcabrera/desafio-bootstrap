@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Boxing Club</title>
+</head>
+<body class="bg-dark">
+    
+    <!-- Header INICIO -->
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger fs-5 px-3 pt-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="imagenes/placa.png" alt="" width="64" height="64" class="d-inline-block align-text-top">
+                    Boxing Club
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Horarios</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Turnos
+                    </a>
+                    <ul class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Sacar Turno</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Mis Turnos</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-dark" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+         <!-- Header FIN -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="imagenes/slide1.jpg" class="d-block w-100" alt="slide1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, rerum!</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/slide2.jpg" class="d-block w-100" alt="slide2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, rerum!</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/slide3.jpeg" class="d-block w-100" alt="slide3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem ipsum dolor sit amet.</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, rerum!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="container-fluid mt-2">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="imagenes/mercadopago_logos1.jpg" class="card-img-top" alt="medios de pago">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Medios de Pago</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nobis, nihil cupiditate sunt culpa atque.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="imagenes/saludable.png" class="card-img-top" alt="beneficios para la salud">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Beneficios</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nobis, nihil cupiditate sunt culpa atque.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="imagenes/ofertas.png" class="card-img-top" alt="ofertas">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Promociones</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nobis, nihil cupiditate sunt culpa atque.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+      </section>
+
+      <!-- FOOTER INICIO -->
+
+      <footer class="w-100 d-flex align-items-center justify-content-center bg-danger mt-3">
+        <p class="fs-5 px-3 pt-3">Boxing Club. &copy; Todos Los Derechos Reservados 2022</p>
+        <div>
+            <a class="mx-1 bg-danger" href="#">
+                <img src="imagenes/facebook.svg" alt="fb">
+            </a>
+            <a class="mx-1" href="#">
+                <img src="imagenes/twitter.svg" alt="tw">
+            </a>
+            <a class="mx-1" href="#">
+                <img src="imagenes/instagram.svg" alt="ig">
+            </a>
+        </div>
+      </footer>
+      <!-- FOOTER FIN -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
